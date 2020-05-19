@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace OOP
 {
-    class Pessoa
+    public class Pessoa
     {
+        // Estados
         public string Nome { get; set; }
         public DateTime DataNascimento { get; set; }
 
+        // Comportamento
         public int CalcularIdade()
         {
             var dataAtual = DateTime.Now;
