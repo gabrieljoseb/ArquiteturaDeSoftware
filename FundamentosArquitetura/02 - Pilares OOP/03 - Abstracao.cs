@@ -12,7 +12,14 @@
             _voltagem = voltagem;
         }
 
+        // abstract obriga a implementação
         public abstract void Ligar();
         public abstract void Desligar();
+
+        // virtual tem um comportamento padrão, mas pode ser sobrescrito
+        public virtual void Testar()
+        {
+            // teste do equipamento
+        }
     }
 }
