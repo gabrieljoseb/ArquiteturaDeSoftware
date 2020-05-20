@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Runtime.CompilerServices;
 
+// Tornar os internals visiveis para um assembly diferente
+//[assembly: InternalsVisibleTo("ProjetoB")]
 namespace ProjetoA
 {
     #region Classes
