@@ -11,33 +11,34 @@ namespace ProjetoB
             //var interna = new Interna();
             //var abstrata = new Abstrata();
         }
+    }
 
-        class TesteModificador1
+    class TesteModificador1
+    {
+        public TesteModificador1()
         {
-            public TesteModificador1()
-            {
-                var publica = new Publica();
+            var publica = new Publica();
 
-                publica.TestePublico();
-                //publica.TesteInternal();
-                //publica.TesteProtegidoInterno();
-                //publica.TesteProtegido();
-                //publica.TestePrivadoProtegido();
-                //publica.TestePrivado();
-            }
+            publica.TestePublico();
+            //publica.TesteInternal();
+            //publica.TesteProtegidoInterno();
+            //publica.TesteProtegido();
+            //publica.TestePrivadoProtegido();
+            //publica.TestePrivado();
         }
+    }
 
-        class TesteModificador2 : Publica
+    class TesteModificador2 : Publica
+    {
+        public TesteModificador2()
         {
-            public TesteModificador2()
-            {
-                TestePublico();
-                TesteProtegidoInterno();
-                TesteProtegido();
-                //TesteInternal();
-                //TestePrivadoProtegido();
-                //TestePrivado();
-            }
+            TestePublico();
+            TesteProtegidoInterno();
+            TesteProtegido();
+            //TesteInternal();
+            //TestePrivadoProtegido();
+            //TestePrivado();
         }
     }
 }
+
