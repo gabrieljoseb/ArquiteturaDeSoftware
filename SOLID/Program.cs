@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjetoB
+namespace SOLID
 {
     class Program
     {
