@@ -1,4 +1,4 @@
-﻿=namespace SOLID.SRP.Solucao
+﻿namespace SOLID.SRP.Solucao
 {
     public class CPF
     {
